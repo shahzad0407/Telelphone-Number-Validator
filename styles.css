@@ -1,0 +1,75 @@
+h1,h2{
+    text-align:center;
+}
+body{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    background-color:#D69F7E;
+}
+#mobile{
+    height:65vh;
+    width:20%;
+    margin-top:2rem;
+    border-top:2.4rem solid black;
+    border-bottom:2.4rem solid black;
+    border-right:0.7rem solid black;
+    border-left:0.7rem solid black;
+    border-radius:18px;
+    z-index:1
+}
+#camera{
+    background-color:white;
+    z-index:2;
+    width:0.7rem;
+    height:0.7rem;
+    border-radius:0.7rem;
+    margin:0 auto;
+    position:relative;
+    bottom:17px;
+}
+#check-btn{
+    position:relative;
+    top:24vw;
+    left:3rem;
+    border-radius:5px;
+}
+#clear-btn{
+    position:relative;
+    top:24vw;
+    left:7rem;
+    border-radius:5px;
+}
+input{
+    text-align:center;  
+}
+button {
+    background-color: #0569ff;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 19px;
+    cursor: pointer;
+    width:4rem;
+}
+#main{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+@media only screen and (max-width: 600px) {
+    #mobile {
+      width:60%;
+      height:60vh;
+    }
+    #check-btn{
+        top:85vw;
+        left:1rem
+    }
+    #clear-btn{
+        top:85vw;
+        left:4rem
+    }
+  }
